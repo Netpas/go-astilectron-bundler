@@ -484,10 +484,10 @@ func (b *Bundler) provisionVendor(oS, arch string) (err error) {
 	}
 
 	// Provision electron
-	if err = b.provisionVendorElectron(oS, arch); err != nil {
+	/*if err = b.provisionVendorElectron(oS, arch); err != nil {
 		err = errors.Wrapf(err, "provisioning electron vendor for OS %s and arch %s failed", oS, arch)
 		return
-	}
+	}*/
 	return
 }
 
